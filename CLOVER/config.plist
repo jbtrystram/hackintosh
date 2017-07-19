@@ -154,6 +154,8 @@
 			<dict>
 				<key>Comment</key>
 				<string>t1-10.12-AppleHDA/Realtek ALC...</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Find</key>
 				<data>
 				ihnUEQ==
@@ -168,6 +170,8 @@
 			<dict>
 				<key>Comment</key>
 				<string>t1-10.9-10.12-AppleHDA/Realtek ALC892</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Find</key>
 				<data>
 				ixnUEQ==
@@ -182,6 +186,8 @@
 			<dict>
 				<key>Comment</key>
 				<string>t1-AppleHDA/Resources/xml&gt;zml</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Find</key>
 				<data>
 				eG1sLnps
@@ -207,6 +213,22 @@
 				<key>Replace</key>
 				<data>
 				vhcAAACQ
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>change 15 port limit to 26 in XHCI kext (100-series) 10.12</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				g710////EA==
+				</data>
+				<key>Name</key>
+				<string>AppleUSBXHCIPCI</string>
+				<key>Replace</key>
+				<data>
+				g710////Gw==
 				</data>
 			</dict>
 		</array>
@@ -256,7 +278,7 @@
 	<key>SystemParameters</key>
 	<dict>
 		<key>InjectKexts</key>
-		<string>YES</string>
+		<string>Yes</string>
 		<key>InjectSystemID</key>
 		<true/>
 		<key>NvidiaWeb</key>
