@@ -1,17 +1,17 @@
 # hackintosh
-Required files for my mackintosh to install &amp; boot
+Required files for my mackintosh to install &amp; boot  
 Current install is OSX sierra 10.12.5.
 
-Files on this repo are the only necessary files to be copied into the EFI partition after a multibeast install.
+Files on this repo are the only necessary files to be copied into the EFI partition after a multibeast install.  
 For the install, simply boot with nv_disable=1 and install nvidia webdrivers afterwards. 
 
 ## Hardware
-Intel Core i7 6700K
-MSI Z170a Tomahawk
-Gskill 2x8Go DDR4
-Samsung 960 Evo 256Go (NVMe SSD)
-Crucial M500 128Go SSD (used for install)
-MSI GTX 1080 Sea Hawk
+* Intel Core i7 6700K
+* MSI Z170a Tomahawk
+* Gskill 2x8Go DDR4
+* Samsung 960 Evo 256Go (NVMe SSD)
+* Crucial M500 128Go SSD (used for install)
+* MSI GTX 1080 Sea Hawk
 
 ## Working
 - Audio 
