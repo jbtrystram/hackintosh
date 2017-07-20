@@ -14,7 +14,7 @@ For the install, simply boot with nv_disable=1 and install nvidia webdrivers aft
 * MSI GTX 1080 Sea Hawk
 
 ## Working
-- Audio 
+- Audio and audio after sleep
 - HiDPI scaling (retina)
 - Sleep / Deep sleep
 - Boot on NVMe SSD
@@ -22,7 +22,7 @@ For the install, simply boot with nv_disable=1 and install nvidia webdrivers aft
 
 
 ## Not Working
-nothing found so far
+headphone jack detection after sleep
 
 ### Notes
 presence of HackrNVMeFamily-10_12_5.kext in the kexts folder requires to delete IONVMeFamilly.kext in the original OSX kext folders. (easy way is to install OSX on a regular SSD and deal with NVME after install)
@@ -34,5 +34,4 @@ presence of HackrNVMeFamily-10_12_5.kext in the kexts folder requires to delete 
 - get the NVME SSD working : [RehabMan Patch](https://github.com/RehabMan/patch-nvme) then [clone install into NVME](https://www.tonymacx86.com/threads/nvme-on-a-hackintosh.173230/page-5#post-1457549)
 - Boot without nv_disable=1 : [OsxAptioFixDrv](https://nickwoodhams.com/x99-hackintosh-osxaptiofixdrv-allocaterelocblock-error-update/)
 - USB limit patch. (if you have lot of USB devices / hubs that are not recognized) [plist patch - tonymacx86](https://www.tonymacx86.com/threads/usb-new-raise-port-limit-patch-for-macos-10-12-sierra.202329/)
-
-
+- EAPD Codec Fix (no audio after sleep) : [RehabMan's Codec Commander](https://www.tonymacx86.com/threads/no-audio-after-sleep-wake-realtek-alc-applehda-fixes.151504/)
