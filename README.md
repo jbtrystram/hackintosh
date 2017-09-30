@@ -1,9 +1,8 @@
 # hackintosh
-Required files for my mackintosh to install &amp; boot  
-Current install is OSX sierra 10.12.5.
+Required files to boot OSX sierra 10.12.5 from a NVME drive.
+See the branch usb\_install\_sierra to boot the USB installer.
 
-Files on this repo are the only necessary files to be copied into the EFI partition after a multibeast install.  
-For the install, simply boot with nv_disable=1 and install nvidia webdrivers afterwards. 
+Files on this repo are the only necessary files to be copied into the EFI partition after a multibeast install. 
 
 ## Hardware
 * Intel Core i7 6700K
@@ -25,7 +24,10 @@ For the install, simply boot with nv_disable=1 and install nvidia webdrivers aft
 nothing found so far
 
 ### Notes
+
 presence of HackrNVMeFamily-10_12_5.kext in the kexts folder requires to delete IONVMeFamilly.kext in the original OSX kext folders. (easy way is to install OSX on a regular SSD and deal with NVME after install)
+
+You should use a spoof class code and *NOT* remove IONVMeFamily.kext to avoid your OS to be killed by a sierra update. See [tonymacx86 guide] and [tonymacx86 thread](https://www.tonymacx86.com/threads/10-12-6-auto-updated-before-i-could-update-my-hackrnvmefamily-kext.229150/page-3#post-1591133)
 
 
 ## Credits / resources 
