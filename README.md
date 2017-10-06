@@ -27,6 +27,7 @@ Update Clover (v4220 is working fine)
 
 ## Credits / resources 
 
+- make clover look good : [display 4k](https://www.tonymacx86.com/threads/clover-uefi-boot-with-4k-and-200-scaling.224313/) and [theme](https://github.com/al3xtjames/clover-theme-minimal)
 - high sierra update : [tonymacx86](https://www.tonymacx86.com/threads/update-directly-to-macos-high-sierra.232707/)
 
 - Initial guide for el capitan : [tonymacx86](https://www.tonymacx86.com/threads/guide-skylake-el-capitan-msi-z170a-tomahawk-i5-6600k-gtx-970.187255/)
